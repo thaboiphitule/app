@@ -93,7 +93,7 @@ class GeminiLiveService(
     private fun sendSetupConfig() {
         val setupMsg = mapOf(
             "setup" to mapOf(
-                "model" to "models/gemini-2.0-flash-exp",
+                "model" to "models/gemini-2.5-flash",
                 "generationConfig" to mapOf(
                     "responseModalities" to listOf("AUDIO"),
                     "speechConfig" to mapOf(
